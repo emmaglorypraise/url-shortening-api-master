@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+}
+
+header {
+  margin-top: 20px;
+}
+
+
+@media(min-width: 767px) {
+       
+nav li {
+  padding: 10px;
+}
+
+.navbar-brand {
+  margin-top: 8px;
+}
+
+.nav-link {
+  color: hsl(257, 7%, 63%);
+}
+
+.nav-link:hover {
+  color: hsl(0, 0%, 75%);
+}
+
+.sign-in-btn {
+  background-color: hsl(180, 66%, 49%);
+  color: white;
+  width: 100px;
+  height: 80px;
+  border-radius: 50px;
+}
+}
