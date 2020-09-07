@@ -7,6 +7,8 @@
 }
 
 /* MOBILE VIEW */
+
+/* NAVIGATION BAR */
 header {
   margin-top: 10px;
 }
@@ -63,8 +65,17 @@ hr {
   border-radius: 15px;
 }
 
+/* .illustration-image {
+  background-image: url("../images/illustration-working.svg");
+  background-position: center center;
+  width: 100vw;
+  height: 100vh;
+} */
+
 /* TABLET AND DESKTOP VIEW */
 @media(min-width: 767px) {
+
+  /* NAVIGATION BAR */
   .navbar-brand {
     margin-top: 5px;
   }
