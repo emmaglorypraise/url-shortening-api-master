@@ -89,5 +89,6 @@ hr {
   .sign-in-btn {
     padding: 0px 30px;
     font-weight: 500;
+    margin-left: 10px;
   }
 }
