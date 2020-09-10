@@ -9,10 +9,6 @@
 /* MOBILE VIEW */
 
 /* NAVIGATION BAR */
-header {
-  margin-top: 10px;
-}
-
 .navbar-brand {
   margin-top: 15px;
 }
@@ -24,7 +20,6 @@ header {
 
 .navbar-toggler:focus {
   outline: none;
-  /* box-shadow: none; */
 }
 
 .navbar-toggler-icon {
@@ -60,21 +55,179 @@ header {
 }
 
 hr {
-  
   border: 0.5px solid hsl(257, 7%, 63%);
   border-radius: 15px;
 }
 
-/* .illustration-image {
-  background-image: url("../images/illustration-working.svg");
-  background-position: center center;
-  width: 100vw;
-  height: 100vh;
-} */
+/* HERO */
+#hero {
+  margin-bottom: 70px;
+}
+
+#hero h1 {
+  color: hsl(255, 11%, 22%);
+  font-weight: 700;
+  line-height: 42px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#hero h4 {
+  color: hsl(257, 7%, 63%);
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+}
+
+#hero button {
+  background-color: hsl(180, 66%, 49%);
+  color: #ffffff;
+  border: 1px solid hsl(180, 66%, 49%);
+  border-radius: 30px;
+  width: 150px;
+  padding: 10px;
+  margin: 10px 0px 40px;
+}
+
+#hero .button-box {
+  width: 150px;
+  margin: 0 auto;
+}
+
+/* INPUT BAR SECTION */
+#input-bar {
+  background-color: hsl(0, 0%, 90%);
+  width: 100%;
+  position: absolute;
+  padding-bottom: 50px;
+}
+
+#input-bar .input-box {
+  width: 90%;
+  background-image: url("../images/bg-shorten-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: hsl(257, 27%, 26%);
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border-radius: 5px;
+  margin: -60px auto;
+  
+}
+
+#input-bar .input-box input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: hsl(255, 11%, 22%);
+  font-weight: 500;
+}
+
+#input-bar .input-box button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(180, 66%, 49%);
+  color: #ffffff;
+  font-weight: 700;
+}
+
+/* HEADING  */
+.heading {
+  margin-top: 130px;
+} 
+
+.heading h2 {
+  text-align: center;
+  font-weight: 700;
+  color: hsl(260, 8%, 14%);
+  line-height: 54px;
+}
+
+.heading h5 {
+  color: hsl(257, 7%, 63%);
+  text-align: center;
+  font-size: 18px;
+  line-height: 32px;
+  margin-bottom: 40px;
+}
+
+/* CARDBOXS */
+.cardbox {
+  font-size: 18px;
+  padding: 30px;
+  background-color: #ffffff;
+  margin-bottom: 60px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.cardbox h4 {
+  color: hsl(257, 27%, 26%);
+  font-weight: 700;
+  line-height: 42px;
+  margin-top: 20px;
+}
+
+.cardbox h5 {
+  color: hsl(257, 7%, 63%);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+/* BANNER */
+#banner {
+  padding: 60px;
+  width: 100%;
+  position: absolute;
+  background-color: hsl(257, 27%, 26%);
+  background-image: url("../images/bg-boost-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+#banner h2 {
+  font-weight: 700;
+  font-size: 28px;
+  margin-top: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+
+#banner button {
+  background-color: hsl(180, 66%, 49%);
+  color: #ffffff;
+  border: 1px solid hsl(180, 66%, 49%);
+  border-radius: 30px;
+  width: 150px;
+  padding: 10px;
+  margin: 20px 50px;
+}
+
+#banner .button-box {
+  width: 150px;
+  margin: 0 50%;
+}
+
+footer {
+  margin-top: 360px;
+  
+}
+
+
+
+
+
 
 /* TABLET AND DESKTOP VIEW */
 @media(min-width: 767px) {
-
   /* NAVIGATION BAR */
   .navbar-brand {
     margin-top: 5px;
@@ -102,4 +255,95 @@ hr {
     font-weight: 500;
     margin-left: 10px;
   }
+     
+/* HERO */
+#hero {
+  margin-bottom: 100px;
+} 
+
+#hero h1 {
+  line-height: 52px;
+  text-align: left;
+  max-width: 400px;
+  margin-top: 10px;
+}
+
+#hero h4 {
+  max-width: 400px;
+  text-align: left;
+  color: hsl(257, 7%, 63%);
+  font-size: 18px;
+  line-height: 32px;
+}
+
+#hero button {
+  margin: 20px 0px ;
+  text-align: center;
+}
+
+#hero .button-box {
+  width: 150px;
+  margin: 0 0px;
+}
+
+
+/* INPUT BAR SECTION */
+#input-bar .input-box {
+  background-image: url("../images/bg-shorten-desktop.svg");
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+}
+
+#input-bar .input-box input {
+  width: 70%;
+  margin-right: 50px;
+}
+
+#input-bar .input-box button {
+  width: 19%;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+
+/* HEADING  */
+.heading h5 {
+  text-align: center;
+  max-width: 500px;
+  margin:  0 auto;
+  margin-bottom: 70px;
+}
+
+
+/* CARDBOXS */
+.cardbox {
+  font-size: 18px;
+  text-align: left;
+}
+
+.cardbox h5 {
+  max-width: 300px;
+}
+
+.box-2 {
+  margin-top: 30px;
+}
+
+.box-3 {
+  margin-top: 60px;
+}
+
+/* BANNER */
+#banner {
+  background-image: url("../images/bg-boost-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* margin-top: 800px; */
+}
+
+
+
+
 }

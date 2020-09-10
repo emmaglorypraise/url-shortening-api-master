@@ -15,9 +15,9 @@
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
 <body>
-<div class="container">
+<!-- <div class="container"> -->
   <header>
-    <nav class="navbar navbar-expand-md navbar-light ">
+    <nav class="navbar container navbar-expand-md navbar-light ">
       <a class="navbar-brand" href="index.html">
         <img src="images/logo.svg"  alt="logo" loading="lazy">
       </a>
@@ -54,142 +54,182 @@
   </header>
  
 
+ <section id="hero">
   <div class="container">
-    <div class="row">
+    <div class="row flex-row-reverse">
       <div class="col-md-6">
         <div class="illustration-image">
         <img  class="img-fluid"  width="" height="70px" src="./images/illustration-working.svg" alt="illustration-working">
        </div>
       </div>
       <div class="col-md-6">
-        <h2>
+        <h1>
           More than just shorter links
-        </h2>
+        </h1>
         <h4>
           Build your brand's recognition and get detailed insights on
           how your links are performing.
         </h4>
-        <button>Get Started</button>
+
+        <div class="button-box">
+          <button type="button">Get Started</button>
+        </div>
+        
       </div>
     </div>
     
   </div>
+ </section> 
 
-  <div>
-    <input type="text">
-    <button>
-      Shorten it!
-    </button>
+<section id="input-bar">
+  <div class="input-box">
+   <div class="container ">
+      <div class="row">
+        <div class="col-md-12">
+          <input type="text" placeholder="Shorten a link here...">
+          <button type="button">Shorten it!</button>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div>
-    <h2>
-      Advanced Statistics
-    </h2>
-    <h5>
-      Track how your links are performing across the web with our
-      advanced statistics dashboard.
-    </h5>
-  </div>
-
-  <div>
-    <div>
-      <i></i>
-      <div>
-        <h4>
-          Brand Recognition
-        </h4>
+  <div class="container heading">   
+    <div class="row">
+      <div class="col-md-12">
+        <h2>
+          Advanced Statistics
+        </h2>
         <h5>
-          Boost your brand recognition with each click. Generic links
-          don't mean a thing. Branded links help instil confidence in your content.
+          Track how your links are performing across the web with our
+          advanced statistics dashboard.
         </h5>
       </div>
     </div>
-    <div>
-      <i></i>
-      <div>
-        <h4>
-          Detailed Records
-        </h4>
-        <h5>
-         Gain insights into who is clicking your links. Knowing when and 
-         where people engage with your content helps inform better decisions</h5>
+  </div> 
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="cardbox">
+         <i></i>
+         <div>
+          <h4>
+            Brand Recognition
+          </h4>
+          <h5>
+           Boost your brand recognition with each click. Generic links
+           don't mean a thing. Branded links help instil confidence in your content.
+         </h5>
+         </div>
+       </div>
+    </div>
+    <div class="col-md-4">
+      <div class="cardbox box-2">
+        <i></i>
+        <div>
+          <h4>
+            Detailed Records
+          </h4>
+          <h5>
+           Gain insights into who is clicking your links. Knowing when and 
+           where people engage with your content helps inform better decisions</h5>
+        </div>
       </div>
     </div>
-    <div>
-      <i></i>
-      <div>
-        <h4>
-          Fully customizable
-        </h4>
-        <h5>
-         Improve brand awareness and content discoverability through customizable
-         links superchanging audience engagement</h5>
+    <div class="col-md-4">
+      <div class="cardbox box-3">
+        <i></i>
+        <div>
+          <h4>
+            Fully customizable
+          </h4>
+          <h5>
+           Improve brand awareness and content discoverability through customizable
+           links superchanging audience engagement</h5>
+        </div>
       </div>
     </div>
   </div>
-
-  <div>
-    <h2>
-      Boost your links today
-    </h2>
-    <button>
-      Get Started
-    </button>
   </div>
-
-  <footer>
-    <div>
-      Shortly
-    </div>
-    <div>
-      <h2>
-        Features
-      </h2>
-      <ul>
-        <li>Link Shortening</li>
-        <li>Branded links</li>
-        <li>Analytics</li>
-      </ul>
-    </div>
-    <div>
-      <h2>
-        Resources
-      </h2>
-      <ul>
-        <li>Blog</li>
-        <li>Developers</li>
-        <li>Support</li>
-      </ul>
-    </div>
-    <div>
-      <h2>
-        Company
-      </h2>
-      <ul>
-        <li>About</li>
-        <li>Our Team</li>
-        <li>Careers</li>
-        <li>Contact</li>
-      </ul>
-    </div>
-    <div>
-      <ul>
-        <li><i></i></li>
-        <li><i></i></li>
-        <li><i></i></li>
-        <li><i></i></li>
-      </ul>
-    </div>
-  </footer>
-
-</div>
 
   
-  <div class="attribution" style= "margin-top: 50px;">
+<section id="banner">
+  <div class="container ">
+    <div class="row ">
+      <div class="col-md-12">
+        <div class="banner-box">
+          <h2>
+            Boost your links today
+          </h2>
+          <button class="button-box-2">
+            Get Started
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div></div>
+  <div>
+    Shortly
+  </div>
+  <div>
+    <h2>
+      Features
+    </h2>
+    <ul>
+      <li>Link Shortening</li>
+      <li>Branded links</li>
+      <li>Analytics</li>
+    </ul>
+  </div>
+  <div>
+    <h2>
+      Resources
+    </h2>
+    <ul>
+      <li>Blog</li>
+      <li>Developers</li>
+      <li>Support</li>
+    </ul>
+  </div>
+  <div>
+    <h2>
+      Company
+    </h2>
+    <ul>
+      <li>About</li>
+      <li>Our Team</li>
+      <li>Careers</li>
+      <li>Contact</li>
+    </ul>
+  </div>
+  <div>
+    <ul>
+      <li><i></i></li>
+      <li><i></i></li>
+      <li><i></i></li>
+      <li><i></i></li>
+    </ul>
+  </div>
+</footer>
+
+</section> <!--end of input-box section-->
+
+
+  
+
+  
+
+  
+
+</div>   <!--end of container--> 
+  <!-- <div class="attribution" style= "margin-top: 50px;">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Glory Praise</a>.
-  </div>
+  </div> -->
   <script src="js/main.js"></script>
   <script src="js/jquery.js" ></script>
   <script src="js/popper.js"></script>
