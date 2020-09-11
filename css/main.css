@@ -99,7 +99,7 @@ hr {
   background-color: hsl(0, 0%, 90%);
   width: 100%;
   position: absolute;
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
 }
 
 #input-bar .input-box {
@@ -162,7 +162,7 @@ hr {
   font-size: 18px;
   padding: 30px;
   background-color: #ffffff;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   border-radius: 5px;
   text-align: center;
 }
@@ -179,6 +179,10 @@ hr {
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
+}
+
+.box-3 {
+  margin-bottom: 60px;
 }
 
 /* BANNER */
@@ -208,20 +212,44 @@ hr {
   border-radius: 30px;
   width: 150px;
   padding: 10px;
-  margin: 20px 50px;
 }
 
-#banner .button-box {
-  width: 150px;
-  margin: 0 50%;
+#banner .button-box-2 {
+    width: 150px;
+    margin: 20px auto;
 }
 
+/* FOOTER */
 footer {
-  margin-top: 360px;
-  
+  margin-top: 290px;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 70px;
+  text-align: center;
 }
 
+footer ul li {
+  list-style: none;
+  font-size: 18px;
+  line-height: 42px;
+}
 
+footer h3 {
+  line-height: 80px;
+  font-weight: 700;
+  font-size: 42px;
+}
+
+footer h2 {
+  font-weight: 700;
+  font-size:  24px;
+  line-height: 42px;
+}
+
+footer .social-media-icon ul li {
+  display: inline;
+  padding: 5px;
+}
 
 
 
@@ -286,7 +314,6 @@ footer {
   margin: 0 0px;
 }
 
-
 /* INPUT BAR SECTION */
 #input-bar .input-box {
   background-image: url("../images/bg-shorten-desktop.svg");
@@ -316,11 +343,11 @@ footer {
   margin-bottom: 70px;
 }
 
-
 /* CARDBOXS */
 .cardbox {
   font-size: 18px;
   text-align: left;
+  margin-bottom: 90px;
 }
 
 .cardbox h5 {
@@ -332,7 +359,7 @@ footer {
 }
 
 .box-3 {
-  margin-top: 60px;
+  margin-top: 80px;
 }
 
 /* BANNER */
@@ -341,6 +368,29 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   /* margin-top: 800px; */
+}
+
+/* FOOTER */
+footer {
+  margin-top: 286px;
+} 
+
+footer ul li {
+  list-style: none;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+footer h3 {
+  line-height: 50px;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+footer h2 {
+  font-weight: 700;
+  font-size:  20px;
+  line-height: 42px;
 }
 
 
