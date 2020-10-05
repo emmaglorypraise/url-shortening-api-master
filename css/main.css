@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 /* MOBILE VIEW */
@@ -44,7 +44,7 @@
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #ffffff;
+  color: hsl(257, 7%, 63%);
 }
 
 .sign-in-btn {
@@ -52,6 +52,11 @@
   color: #ffffff;
   border-radius: 30px;
   font-weight: 700;
+}
+
+.sign-in-btn:hover {
+  background-color:  hsl(180, 29%, 52%);
+  color: #ffffff;
 }
 
 hr {
@@ -89,6 +94,12 @@ hr {
   margin: 10px 0px 40px;
 }
 
+#hero button:hover {
+  border: none;
+  background-color: hsl(180, 29%, 52%);;
+  color: #ffffff;
+}
+
 #hero .button-box {
   width: 150px;
   margin: 0 auto;
@@ -113,7 +124,7 @@ hr {
   justify-content: center;
   align-content: center;
   border-radius: 5px;
-  margin: -60px auto;
+  margin: -60px auto 10px;
   
 }
 
@@ -137,9 +148,14 @@ hr {
   font-weight: 700;
 }
 
+#input-bar .input-box button:hover {
+  background-color: hsl(180, 29%, 52%);
+  color: #ffffff;
+}
+
 /* HEADING  */
 .heading {
-  margin-top: 130px;
+  margin-top: 40px;
 } 
 
 .heading h2 {
@@ -154,7 +170,7 @@ hr {
   text-align: center;
   font-size: 18px;
   line-height: 32px;
-  margin-bottom: 40px;
+  margin-bottom: 5px;
 }
 
 /* CARDBOXS */
@@ -214,6 +230,12 @@ hr {
   padding: 10px;
 }
 
+#banner button:hover {
+  background-color: hsl(180, 29%, 52%);
+  color: #ffffff;
+  border: none;
+}
+
 #banner .button-box-2 {
     width: 150px;
     margin: 20px auto;
@@ -234,6 +256,10 @@ footer ul li {
   line-height: 42px;
 }
 
+footer ul li:hover {
+  color: hsl(180, 66%, 49%);
+}
+
 footer h3 {
   line-height: 80px;
   font-weight: 700;
@@ -251,6 +277,63 @@ footer .social-media-icon ul li {
   padding: 5px;
 }
 
+footer .social-media-icon ul li:hover {
+  color: hsl(180, 66%, 49%);
+}
+
+/* .line {
+  background:  hsl(180, 66%, 49%);
+  height: 30px;
+  width: 10px;
+  margin-top: 0px;
+} */
+
+#input-bar .generated-link-section {
+  width: 90%;
+  margin: 20px auto 10px;
+  
+}
+
+#input-bar .flex-container {
+  padding: 20px 20px 10px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+#input-bar .flex-container .full-link p{
+  color: hsl(257, 27%, 26%);
+  font-size: 20px;
+}
+
+#input-bar .flex-container .shortened-link{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#input-bar .flex-container .shortened-link p{
+  color: hsl(180, 66%, 49%);
+  font-size: 20px;
+}
+
+#input-bar .flex-container .shortened-link button {
+  margin-left: 0px;
+  padding: 5px;
+  background-color: hsl(180, 66%, 49%);
+  color: #ffffff;
+  border: 1px solid hsl(180, 66%, 49%);
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+}
+
+#input-bar .flex-container .shortened-link button:hover {
+  background-color: hsl(180, 29%, 52%);
+}
 
 
 
@@ -275,7 +358,7 @@ footer .social-media-icon ul li {
   }
 
   .navbar-light .navbar-nav .nav-link:hover {
-    color: hsl(257, 7%, 63%);
+    color: hsl(257, 27%, 26%);
   }
 
   .sign-in-btn {
@@ -336,11 +419,15 @@ footer .social-media-icon ul li {
 
 
 /* HEADING  */
+.heading {
+  margin-top: 70px;
+} 
+
 .heading h5 {
   text-align: center;
   max-width: 500px;
   margin:  0 auto;
-  margin-bottom: 70px;
+  margin-bottom: 40px;
 }
 
 /* CARDBOXS */
@@ -391,6 +478,54 @@ footer h2 {
   font-weight: 700;
   font-size:  20px;
   line-height: 42px;
+}
+
+
+#input-bar .generated-link-section {
+  width: 90%;
+  margin: 50px auto 10px;
+  
+}
+
+#input-bar .flex-container {
+  padding: 20px 20px 10px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+#input-bar .flex-container .full-link p{
+  color: hsl(257, 27%, 26%);
+  font-size: 20px;
+}
+
+#input-bar .flex-container .shortened-link{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+#input-bar .flex-container .shortened-link p{
+  color: hsl(180, 66%, 49%);
+  font-size: 20px;
+}
+
+#input-bar .flex-container .shortened-link button {
+  margin-left: 30px;
+  padding: 5px;
+  background-color: hsl(180, 66%, 49%);
+  color: #ffffff;
+  border: 1px solid hsl(180, 66%, 49%);
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+}
+
+#input-bar .flex-container .shortened-link button:hover {
+  background-color: hsl(180, 29%, 52%);
 }
 
 
