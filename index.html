@@ -86,8 +86,9 @@
    <div class="container ">
       <div class="row">
         <div class="col-md-12">
-          <input type="text" onclick="this.value =''" placeholder="Shorten a link here...">
-          <button type="button">Shorten it!</button>
+          <input type="text" id="input" onclick="this.value =''" placeholder="Shorten a link here...">
+          <button type="submit" id="button" onclick="validateInput()">Shorten it!</button>
+          <!-- onclick="this.value =''" -->
         </div>
       </div>
     </div>
